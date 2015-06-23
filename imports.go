@@ -3,6 +3,7 @@ package cayley
 import (
 	"github.com/google/cayley/graph"
 	_ "github.com/google/cayley/graph/memstore"
+	_ "github.com/google/cayley/graph/mongo"
 	"github.com/google/cayley/graph/path"
 	"github.com/google/cayley/quad"
 	_ "github.com/google/cayley/writer"
